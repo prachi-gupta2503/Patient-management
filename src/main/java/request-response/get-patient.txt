@@ -1,0 +1,17 @@
+Note: - here 2 is patient id you can put any patient id which you want to access
+Http method-Get
+request url: http://localhost:8080/patient/2
+
+response: if patient get successfully
+
+   {
+    "id": 2,
+    "name": "kumar",
+    "address": "Noida",
+    "dob": "2022-02-17T06:45:06.107+00:00"
+}
+
+status: 200 ok
+
+response: if patient does not get successfully
+status : 404 Not Found

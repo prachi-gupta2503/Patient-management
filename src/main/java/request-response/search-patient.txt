@@ -1,0 +1,20 @@
+Note:-- you can search by patient id,Name,Address
+Http Method:-- Get
+
+Request Url: http://localhost:8080/patient/get?search=(id:3 AND name="john")
+
+response: if find successfully
+  [
+    {
+        "id": 3,
+        "name": "john",
+        "address": "gwalior",
+        "dob": "2000-05-31T18:30:00.000+00:00"
+    }
+]
+
+status: 200 OK
+
+response :if not found
+
+status: 404 Not Found

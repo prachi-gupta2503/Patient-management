@@ -1,0 +1,9 @@
+Note: - here 2 is patient id you can put any patient id which you want to delete
+http Method:- Delete 
+request url:http://localhost:8080/patient/2
+
+response: if successfully deleted
+status: 204 NO content
+
+response: if does not exist 
+status: 404 Not Found

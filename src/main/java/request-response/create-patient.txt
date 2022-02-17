@@ -1,0 +1,25 @@
+Http Method-Post
+Request Url:  http://localhost:8080/patient/create
+Request Body: like this
+  {
+        "id": 5,
+        "name": "karan singh",
+        "address": "gwalior",
+        "dob": "2000-05-31"
+    }
+    
+ response  : if patient create successfully
+ 
+  {
+        "id": 5,
+        "name": "karan singh",
+        "address": "gwalior",
+        "dob": "2000-05-31"
+    }
+ status:200 ok
+ 
+ response : if patient does not Create successfully
+ status:400 Bad Request
+ 
+   
+          

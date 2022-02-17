@@ -1,0 +1,25 @@
+Note: - here 2 is patient id you can put any patient id which you want to update
+Http  Method:- put
+Request Url:  http://localhost:8080/patient/2
+
+Request Body: like this
+           
+     {
+        
+        "name": "kiran",
+        "address": "gwalior",
+        "dob": "2000-05-31"
+    }
+    
+ response  : if patient update successfully
+ 
+  {
+        "id": 2,
+        "name": "kiran",
+        "address": "gwalior",
+        "dob": "2000-05-31"
+    }
+ status:200 ok
+ 
+ response : if patient does not exist
+ status:404 Not Found
